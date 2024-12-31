@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+}
+@font-face{
+    font-family: 'grostesque';
+    src: url(grosteque-regular.ttf);
+}
+.type{
+    font-family: 'grostesque', sans-serif;
+}
+.price{
+    font-size: 3rem;
+    font-weight: 400;
+    color: rgb(6, 31, 47);
+}
+.roe{
+    row-gap: 8px;
+}
+.card{
+    border-radius: 20px !important;
+}
+.trial{
+    font-size: 2rem;
+    color: rgb(6, 31, 47);
+}
+.free{
+    color: #061f2f;
+    font-size: 1.5rem;
+}
+.manage-1{
+    /* padding-right: 220px; */
+    font-size: clamp(1.125rem, 1.1037rem + 0.122vw, 1.25rem);
+    color: #061f2f;
+}
+.manage-2{
+    /* padding-right: 180px; */
+    font-size: clamp(1.125rem, 1.1037rem + 0.122vw, 1.25rem);
+    color: #061f2f;
+}
+.manage-3{
+    /* padding-right: 60px; */
+    font-size: clamp(1.125rem, 1.1037rem + 0.122vw, 1.25rem);
+    color: #061f2f;
+}
+.credit{
+    opacity: .5;
+    color: #061f2f;
+}
+.spa{
+    cursor: pointer;
+}
+.btn{
+    background: #D9C7FF !important;
+}
+.hov-tbn{
+    font-family: 'grostesque', sans-serif;
+    max-width: 100%;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.hov-tbn:hover{
+    background: black !important;
+    color: white !important;
+}
+.built{
+    font-family: 'grostesque',sans-serif;
+    font-size: 3rem;
+    color: #061f2f;
+}
+.fred{
+    font-family: 'grostesque',sans-serif;
+    letter-spacing: -.01em;
+    font-size: 1.25rem;
+    color: #061f2f;
+    /* padding: 0px 405px; */
+}
+.design{
+    font-family: 'grostesque',sans-serif;
+    letter-spacing: -.01em;
+    font-size: 1.25rem;
+    color: #061f2f;
+    /* padding: 20px 410px; */
+}
+.goal{
+    font-family: 'grostesque',sans-serif;
+    letter-spacing: -.01em;
+    font-size: 1.25rem;
+    color: #061f2f;   
+    /* padding: 20px 410px; */
+}
+.owner{
+    font-size: 1.25rem;
+    color: #061f2f;
+    font-weight: 500;
+}
+.owner-data{
+    font-size: clamp(1.125rem, 1.1037rem + 0.122vw, 1.25rem);
+    color: #061f2f;
+    opacity: .5;
+} 
+
+
+
+@media screen and (max-width: 576px) {
+    .hov-tbn{
+        width: 200px;
+    }
+}
